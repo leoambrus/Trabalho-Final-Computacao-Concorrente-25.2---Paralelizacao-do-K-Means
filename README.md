@@ -23,7 +23,7 @@ Este projeto é dividido em 5 arquivos principais:
 * **`kmeans_concorrente_log.c`**
     * Uma versão de depuração do código concorrente. Ela redireciona `stderr` para `log.txt`, salvando o tempo de execução e um log detalhado que mostra o trabalho de cada thread em cada etapa (Atribuição, Sincronização, Soma Local, Redução Global).
 
-## 🛠️ Como Compilar e Executar
+## Como Compilar e Executar
 
 O programa lê os dados da entrada padrão (`stdin`) e imprime os centróides finais na saída padrão (`stdout`). Os logs (nas versões `_log`) são enviados para a saída de erro (`stderr`).
 
